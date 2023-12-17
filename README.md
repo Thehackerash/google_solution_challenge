@@ -5,6 +5,13 @@
 
 Creating a model that predicts the livability of a city based on environmental changes, including land use, deforestation, urban expansion, and pollution indices. This project leverages real-time satellite data and machine learning techniques to provide valuable insights for urban planning and public awareness.
 
+## what we have to do 
+- search for data and apis for all kind of pollution indexes
+- data of past years for training the machine learning model
+- apis for showing the real time info of indexes
+- a dynamic list of top ten cities (first we will work on top 10 cities of india) which would change acc. to a livability index considering all the other pollution indexes.
+
+
 ## Project Outline
 
 ### 1. Data Collection
@@ -64,5 +71,3 @@ Creating a model that predicts the livability of a city based on environmental c
 ## Collaboration
 
 Collaborate with experts in remote sensing, machine learning, and environmental science for accurate and reliable results.
-
-
