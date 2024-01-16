@@ -1,0 +1,4 @@
+here are the resources used by us for our project
+real time info of AIR QUALITY INDEX : https://waqi.info/ or https://www.iqair.com/air-quality-map
+real time info of LIGHT POLLUTION INDEX : https://darksitefinder.com/maps/world.html#4/28.12/69.73 
+real time info of WATER QUALITY : 
