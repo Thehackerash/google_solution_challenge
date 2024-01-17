@@ -1,6 +1,11 @@
 # google_solution_challenge
 # Urban Livability Prediction Project
 
+## future features
+- feedback form : asking for new features to be added from the user and priority list of features according to them for improving our formula of calculating livabilty index.
+- user profile
+- dynamic ranking of top 10 lists
+
 ## Overview
 
 Creating a model that predicts the livability of a city based on environmental changes, including land use, deforestation, urban expansion, and pollution indices. This project leverages real-time satellite data and machine learning techniques to provide valuable insights for urban planning and public awareness.
