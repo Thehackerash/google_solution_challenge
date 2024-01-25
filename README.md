@@ -26,7 +26,7 @@ Creating a model that predicts the livability of a city based on environmental c
 
 ### 2. Data Preprocessing
 
-- Preprocess satellite imagery, including cloud removal, normalization, and segmentation.
+- Preprocess the data values, dependant and independant environmental factors.
 - Integrate pollution indices with corresponding spatial and temporal information.
 
 ### 3. Change Detection
@@ -36,18 +36,18 @@ Creating a model that predicts the livability of a city based on environmental c
 
 ### 4. Feature Extraction
 
-- Extract relevant features from satellite imagery and pollution indices indicative of environmental changes and air quality.
-- Features include vegetation indices, built-up area percentages, pollutant concentrations, etc.
+- Extract relevant features from satellite data and pollution indices indicative of environmental changes and air quality.
+- Features include temperature, pollutant concentrations, etc.
 
 ### 5. Data Analysis
 
-- Analyze the relationship between environmental changes, pollution levels, and perceived livability.
+- Analyze the relationship between environmental changes, pollution levels, purchasing power parity and perceived livability.
 - Use statistical methods to identify significant patterns and correlations in the data.
 
 ### 6. Livability Index Prediction
 
 - Build a predictive model (e.g., regression model or machine learning model) to estimate a livability index for a city.
-- Consider factors such as green spaces, air quality, and land use patterns in the model.
+- Consider factors such as ppp, air quality, and various other physical and emotional factors in the model.
 
 ### 7. Validation and Testing
 
@@ -66,7 +66,7 @@ Creating a model that predicts the livability of a city based on environmental c
 
 ### 10. Implementation
 
-- Implement the model as a web or mobile application accessible to the public.
+- Implement the model as a mobile application accessible to the public.
 - Consider collaboration with local governments for more informed urban planning decisions.
 
 ### 11. Ethical Considerations
