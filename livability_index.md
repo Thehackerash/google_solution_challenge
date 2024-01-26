@@ -1,8 +1,9 @@
-#livability index
+# livability index
 
 Creating a livability index involves combining multiple factors to generate a single score that reflects the overall quality of life in a city. Each factor should be normalized to a common scale, and weights should be assigned based on their relative importance. Here's a sample formula to calculate a livability index with factors such as AQI (Air Quality Index), water level, crime rate, and purchasing power parity:
 
-Livability Index = w_aqi.Normalized AQI + w_Water.Normalized Water Level + w_Crime.Normalized Crime Rate + w_PPP.Normalized Purchasing Power Parity
+**livability index formula**
+$$Livability Index = _waqi.Normalized AQI + _wWater.Normalized Water Level + _wCrime.Normalized Crime Rate + _wPPP.NormalizedPPP$$
 
 Where:
 - w_AQI, w_Water, w_Crime, w_PPP,.... are the weights assigned to each factor. The weights should add up to 1.
@@ -10,7 +11,7 @@ Where:
 
 The normalization of each factor can be done using a min-max scaling formula:
 
-Normalized Factor = $Factor - Min Factor\Max Factor - Min Factor$
+$$Normalized Factor = Factor - Min Factor / Max Factor - Min Factor$$
 
 Where:
 - Factor is the raw value of the factor for a city.
