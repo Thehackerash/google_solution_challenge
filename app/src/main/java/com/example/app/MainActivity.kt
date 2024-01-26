@@ -59,19 +59,19 @@ class MainActivity : AppCompatActivity() {
 
     private fun fetchdata(cityName:String) {
 
-        val proxy = Proxy(Proxy.Type.HTTP, InetSocketAddress("172.31.2.3", 8080))
-
-        val proxyAuthenticator = Authenticator { route, response ->
-            val credential = Credentials.basic("IIB2022031", "2004-02-02")
-
-            response.request().newBuilder()
-                .header("Proxy-Authorization", credential)
-                .build()
-        }
-
-        val client = OkHttpClient.Builder()
-            .proxy(proxy)
-            .proxyAuthenticator(proxyAuthenticator)
+//        val proxy = Proxy(Proxy.Type.HTTP, InetSocketAddress("172.31.2.3", 8080))
+//
+//        val proxyAuthenticator = Authenticator { route, response ->
+//            val credential = Credentials.basic("IIB2022031", "2004-02-02")
+//
+//            response.request().newBuilder()
+//                .header("Proxy-Authorization", credential)
+//                .build()
+//        }
+//
+       val client = OkHttpClient.Builder()
+//            .proxy(proxy)
+//            .proxyAuthenticator(proxyAuthenticator)
             .build()
 
 
