@@ -3,14 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="/AQI-Prediction-before-and-after-Lockdown-of-COVID-19-in-India-main/AQI-Prediction-before-and-after-Lockdown-of-COVID-19-in-India-main/city_day.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/AQI-Prediction-before-and-after-Lockdown-of-COVID-19-in-India-main/AQI-Prediction-before-and-after-Lockdown-of-COVID-19-in-India-main/newCityData.csv">
+        <entry key="/ML_Model/city_day.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -18,6 +11,20 @@
           </value>
         </entry>
         <entry key="/ML_Model/nCityData.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/ML_Model/newCityData.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/city_ppp.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
