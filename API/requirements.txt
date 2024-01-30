@@ -4,3 +4,4 @@ jsonpointer==2.4
 jsonschema==4.19.0
 jsonschema-specifications==2023.7.1
 requests==2.31.0
+gunicorn==21.2.0
