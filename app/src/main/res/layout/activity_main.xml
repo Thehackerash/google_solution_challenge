@@ -59,7 +59,7 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/cityname"
         app:layout_constraintTop_toBottomOf="@+id/searchView"
         app:layout_constraintVertical_bias="0.128" />
@@ -72,7 +72,7 @@
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/temp11"
-        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/temp11"
         app:layout_constraintTop_toBottomOf="@+id/temp11"
         app:layout_constraintVertical_bias="0.083" />
@@ -313,7 +313,7 @@
                 <ImageView
 
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="43dp"
                     app:srcCompat="@drawable/humidity" />
 
                 <TextView
@@ -321,15 +321,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TextView" />
+                    android:text="AQI" />
 
                 <TextView
-            android:id="@+id/aqi"
+                    android:id="@+id/aqi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="280"
                     android:textSize="10sp" />
 
                 <androidx.constraintlayout.helper.widget.Flow

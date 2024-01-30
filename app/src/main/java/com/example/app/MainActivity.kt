@@ -59,20 +59,19 @@ class MainActivity : AppCompatActivity() {
 
     private fun fetchdata(cityName:String) {
 
-        val proxy = Proxy(Proxy.Type.HTTP, InetSocketAddress("172.31.2.3", 8080))
+//        val proxy = Proxy(Proxy.Type.HTTP, InetSocketAddress("172.31.2.3", 8080))
+//        val proxyAuthenticator = Authenticator { route, response ->
+//            val credential = Credentials.basic("IIB2022027", "@Asdf123")
+//
+//            response.request().newBuilder()
+//                .header("Proxy-Authorization", credential)
+//                .build()
+//        }
 
-        val proxyAuthenticator = Authenticator { route, response ->
-            val credential = Credentials.basic("IIB2022031", "2004-02-02")
-
-            response.request().newBuilder()
-                .header("Proxy-Authorization", credential)
-                .build()
-        }
-
-        val client = OkHttpClient.Builder()
-            .proxy(proxy)
-            .proxyAuthenticator(proxyAuthenticator)
-            .build()
+     val client = OkHttpClient.Builder()
+//            .proxy(proxy)
+//            .proxyAuthenticator(proxyAuthenticator)
+           .build()
 
 
         val retrofit = Retrofit.Builder()
@@ -92,7 +91,7 @@ class MainActivity : AppCompatActivity() {
                   val sunset=responseBody.sys.sunrise.toString()
                   val sealevel=responseBody.main.pressure.toString()
                   val condition=responseBody.weather.firstOrNull()?.main?: "unknown"
-                //  Log.d("TAG", "onResponse: $temp")
+                Log.d("TAG", "Success")
                   binding.temp.text="$temp °C"
                   binding.condition.text=condition
                   binding.humidity.text="$humidity %"
