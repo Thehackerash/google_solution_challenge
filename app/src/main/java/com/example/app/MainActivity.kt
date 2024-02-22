@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
 
 //        val proxy = Proxy(Proxy.Type.HTTP, InetSocketAddress("172.31.2.3", 8080))
 //        val proxyAuthenticator = Authenticator { route, response ->
-//            val credential = Credentials.basic("IIB2022027", "@Asdf123")
+//            val credential = Credentials.basic("IIB2022027", "")
 //
 //            response.request().newBuilder()
 //                .header("Proxy-Authorization", credential)

@@ -1,26 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".Ldboard"
-    android:background="@drawable/after_noon">
-    <TextView
+    android:layout_height="match_parent">
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:gravity="center"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:text="Future "/>
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/ld_board_lite">
 
-    <ListView
-        android:id="@+id/listv"
-        android:layout_width="match_parent"
-        android:layout_height="848dp"
-        android:layout_marginTop="5dp"
-         />
+        <TextView
+            android:id="@+id/overall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="ML Predictions"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
 
+        <TextView
+            android:id="@+id/Lucknow"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Lucknow"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
 
-</LinearLayout>
+        <ListView
+            android:id="@+id/listViewLko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Delhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="Delhi"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+        <ListView
+            android:id="@+id/listViewDelhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Bangalore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Bangalore"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+        <ListView
+            android:id="@+id/listViewbangalore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

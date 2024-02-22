@@ -11,15 +11,20 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/white"
         android:layout_gravity="center"
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black"
         android:layout_marginTop="350dp"
         >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
             android:id="@+id/etName"
             android:textStyle="normal"
+            android:textColor="@color/black"
             android:hint="Enter your Name" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -28,6 +33,9 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/white"
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black"
         android:layout_gravity="center"
         android:layout_margin="10dp"
         >
@@ -35,6 +43,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:id="@+id/etMail"
             android:textStyle="normal"
             android:hint="Enter your mail address" />
@@ -46,6 +56,9 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/white"
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black"
         android:layout_gravity="center"
         android:layout_margin="5dp"
         app:endIconMode="password_toggle"
@@ -54,6 +67,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:id="@+id/etPassword"
             android:textStyle="normal"
             android:hint="Enter your Password" />
@@ -64,6 +79,9 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/white"
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black"
         android:layout_gravity="center"
         android:layout_margin="10dp"
         >
@@ -71,6 +89,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:id="@+id/etUserName"
             android:textStyle="normal"
             android:hint="Enter unique ID" />
@@ -95,6 +115,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
+        android:textColor="@color/black"
         android:text="If already registered, click SIGN IN" />
 
 </LinearLayout>
